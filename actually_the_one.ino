@@ -29,7 +29,7 @@ void loop()
 {
   while (CircuitPlayground.slideSwitch() == true)
   {
-      if (CircuitPlayground.motionY()< 3)
+      if (CircuitPlayground.motionY()< 5)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 0, 0);
@@ -43,7 +43,7 @@ void loop()
           CircuitPlayground.setPixelColor(9, 0, 255, 128);
           delay(500);
          }
-      if (CircuitPlayground.motionY()>= 3 && CircuitPlayground.motionY()< 6)
+      if (CircuitPlayground.motionY()>= 5 && CircuitPlayground.motionY()< 10)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 0, 0);
@@ -58,9 +58,9 @@ void loop()
           CircuitPlayground.playTone(262, 1000);
           delay(500);
           noTone(5);
-          delay(4000);
+          delay(2000);
         }
-    if (CircuitPlayground.motionY()>= 6 && CircuitPlayground.motionY()< 9)
+    if (CircuitPlayground.motionY()>= 10 && CircuitPlayground.motionY()< 15)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 255, 0);
@@ -75,9 +75,9 @@ void loop()
           CircuitPlayground.playTone(294, 1000);
           delay(500);
           noTone(5);
-          delay(4000);
+          delay(2000);
         }
-    if (CircuitPlayground.motionY()>= 9 && CircuitPlayground.motionY()< 12)
+    if (CircuitPlayground.motionY()>= 15 && CircuitPlayground.motionY()< 20)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 255, 0);
@@ -92,9 +92,9 @@ void loop()
           CircuitPlayground.playTone(330, 1000);
           delay(500);
           noTone(5);
-          delay(4000);
+          delay(2000);
         }
-     if (CircuitPlayground.motionY()>=12 && CircuitPlayground.motionY()< 15)
+     if (CircuitPlayground.motionY()>=20 && CircuitPlayground.motionY()< 25)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 255, 0);
@@ -109,9 +109,9 @@ void loop()
           CircuitPlayground.playTone(349, 1000);
           delay(500);
           noTone(5);
-          delay(4000);
+          delay(2000);
         }
-    if (CircuitPlayground.motionY()>= 15 && CircuitPlayground.motionY()< 18)
+    if (CircuitPlayground.motionY()>= 25 && CircuitPlayground.motionY()< 30)
          {
           CircuitPlayground.setPixelColor(0, 0, 255, 128);
           CircuitPlayground.setPixelColor(1, 0, 255, 0);
@@ -126,9 +126,9 @@ void loop()
           CircuitPlayground.playTone(392, 1000);
           delay(500);
           noTone(5);
-          delay(4000);
+          delay(2000);
         }
-    if (CircuitPlayground.motionY()> 18)
+    if (CircuitPlayground.motionY()> 30)
          {
           for (int i=0; i <= 5; i++)
           {
